@@ -537,10 +537,10 @@ h1 { margin: 16px 0 18px; font-size: clamp(40px, 6.2vw, 92px); }
         <h1>Сколько граммов какого корма <em>сегодня</em></h1>
         <p class="lead">NutriPate смотрит на питомца и на полку: подбирает готовый корм и считает порцию. Без аккаунта. Карточка остаётся в телефоне.</p>
         <div class="hero__cta">
-          <a href="https://sokolvegorka-dev.github.io/nutripate-download/NutriPate-Android.apk" class="btn btn--coral btn--lg">
+          <a href="https://sokolvegorka-dev.github.io/NutriPate-Android.apk" class="btn btn--coral btn--lg" target="_blank" rel="noopener">
             <svg class="ic"><use href="#i-down"/></svg>Для Android
           </a>
-          <a href="https://github.com/sokolvegorka-dev/nutripate-download/releases/download/v1.0.0/NutriPate-Windows.exe" class="btn btn--ghost btn--lg">
+          <a href="https://github.com/sokolvegorka-dev/nutripate-download/releases/download/v1.0.0/NutriPate-Windows.exe" class="btn btn--ghost btn--lg" target="_blank" rel="noopener">
             <svg class="ic"><use href="#i-down"/></svg>Для Windows
           </a>
           <a href="#about" class="btn btn--ghost btn--lg">О нас</a>
@@ -824,17 +824,17 @@ h1 { margin: 16px 0 18px; font-size: clamp(40px, 6.2vw, 92px); }
           <span class="apk__name">NutriPate</span>
           <span class="apk__meta">Android · APK · <span id="apkSize">файл приложения</span></span>
           <span class="apk__hint">Браузер может написать, что файл редкий или опасный. Так он помечает любой установщик не из магазина. Нажмите «Скачать в любом случае», затем разрешите установку.</span>
-          <a class="apk__btn" href="https://sokolvegorka-dev.github.io/nutripate-download/NutriPate-Android.apk">Скачать</a>
+          <a class="apk__btn" href="https://sokolvegorka-dev.github.io/NutriPate-Android.apk" target="_blank" rel="noopener">Скачать</a>
         </article>
         <article class="apk apk--win reveal">
           <span class="apk__ic"><svg><use href="#i-win"/></svg></span>
           <span class="apk__name">NutriPate</span>
           <span class="apk__meta">Windows · EXE · <span id="winSize">файл приложения</span></span>
           <span class="apk__hint">Windows может написать, что приложение неизвестно. Это не проверка на вирус: файла ещё нет в магазине. Нажмите «Подробнее», затем «Выполнить в любом случае».</span>
-          <a class="apk__btn" href="https://github.com/sokolvegorka-dev/nutripate-download/releases/download/v1.0.0/NutriPate-Windows.exe">Скачать</a>
+          <a class="apk__btn" href="https://github.com/sokolvegorka-dev/nutripate-download/releases/download/v1.0.0/NutriPate-Windows.exe" target="_blank" rel="noopener">Скачать</a>
         </article>
       </div>
-      <p class="download__ios">Для iPhone лежит отдельный файл <a href="https://github.com/sokolvegorka-dev/nutripate-download/releases/download/v1.0.0/NutriPate-iOS.ipa">NutriPate-iOS.ipa</a>. Он не из App Store: ставится с компьютера через Sideloadly или AltStore.</p>
+      <p class="download__ios">Для iPhone лежит отдельный файл <a href="https://github.com/sokolvegorka-dev/nutripate-download/releases/download/v1.0.0/NutriPate-iOS.ipa" target="_blank" rel="noopener">NutriPate-iOS.ipa</a>. Он не из App Store: ставится с компьютера через Sideloadly или AltStore.</p>
     </div>
   </section>
 </main>
@@ -994,7 +994,7 @@ h1 { margin: 16px 0 18px; font-size: clamp(40px, 6.2vw, 92px); }
       el.textContent = (mb >= 10 ? mb.toFixed(0) : mb.toFixed(1)) + " МБ";
     }).catch(function () {});
   }
-  showSize("#apkSize", "https://sokolvegorka-dev.github.io/nutripate-download/NutriPate-Android.apk");
+  showSize("#apkSize", "https://sokolvegorka-dev.github.io/NutriPate-Android.apk");
   showSize("#winSize", "https://github.com/sokolvegorka-dev/nutripate-download/releases/download/v1.0.0/NutriPate-Windows.exe");
 
   if (reduce) $$(".reveal").forEach(function (el) { el.style.animation = "none"; el.style.opacity = "1"; });
